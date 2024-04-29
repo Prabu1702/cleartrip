@@ -16,7 +16,9 @@ describe('protocommerce',()=>{
      cy.get('input[type="submit"]').click()
     //cy.get('.alert').should('includes','Success! The Form has been submitted successfully!.')
      //
-     //cy.wait(4000)
+     cy.wait(4000)
+
+ 
      //cy.get('div a[aria-label="close"]').should('includes','Success! The Form has been submitted successfully!.')
      //
      cy.visit('https://rahulshettyacademy.com/angularpractice/shop')
